@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ars.aplikasibangundatar">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MenuUtamaActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MenuAboutActivity" />
+        <activity android:name=".MenuBangunDatarActivity" />
+        <activity android:name=".MenuLatihanActivity" />
+        <activity android:name=".MenuHasilActivity" />
+        <activity android:name=".MenuMateriActivity" />
+        <activity android:name=".LingkaranActivity"></activity>
+        <activity android:name=".BelahKetupatActivity"></activity>
+        <activity android:name=".JajarGenjangActivity"></activity>
+        <activity android:name=".LayangLayangActivity"></activity>
+        <activity android:name=".PersegiActivity"></activity>
+        <activity android:name=".PersegiPanjangActivity"></activity>
+        <activity android:name=".SegitigaSembarangActivity"></activity>
+        <activity android:name=".SegitigaSamaSisiActivity"></activity>
+        <activity android:name=".SegitigaSamaKakiActivity"></activity>
+        <activity android:name=".SegitigaSikuSikuActivity"></activity>
+        <activity android:name=".TrapesiumActivity"></activity>
+    </application>
+
+</manifest>

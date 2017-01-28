@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrounds">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150px"
+            android:id="@+id/no1">
+
+            <ImageView
+                android:layout_width="300px"
+                android:layout_height="match_parent"
+                android:paddingLeft="50px"
+                android:src="@drawable/materi_title"/>
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Persegi"
+                    android:id="@+id/persegi"
+                    android:gravity="left"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Persegi Panjang"
+                    android:id="@+id/persegipanjang"
+                    android:gravity="left"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Segitiga Sembarang"
+                    android:id="@+id/segitigasembarang"
+                    android:gravity="left" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Segitiga Sama Sisi"
+                    android:id="@+id/segitigasamasisi"
+                    android:gravity="left"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Segitiga Sama Kaki"
+                    android:id="@+id/segitigasamakaki"
+                    android:gravity="left"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Segitiga Siku-siku"
+                    android:id="@+id/segitigasamasikusiku"
+                    android:gravity="left"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Jajar Genjang"
+                    android:id="@+id/jajargenjang"
+                    android:gravity="left"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Trapesium"
+                    android:id="@+id/trapesium"
+                    android:gravity="left"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Belah Ketupat"
+                    android:id="@+id/belahketupat"
+                    android:gravity="left"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Layang-layang"
+                    android:id="@+id/layanglayang"
+                    android:gravity="left"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Lingkaran"
+                    android:id="@+id/lingkaran"
+                    android:gravity="left"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+</LinearLayout>
+

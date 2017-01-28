@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ars.aplikasibangundatar.MenuBangunDatarActivity"
+    android:background="@drawable/backgrounds">
+    
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="ars.mediapembelajaran.MenuBangunDatarActivity"
+        android:orientation="vertical"
+        android:layout_gravity="top">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400px"
+            android:src="@drawable/menu_utama_title_bar"/>
+        <Button
+            android:text="Materi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:id="@+id/materi"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+          />
+
+        <Button
+            android:text="Latihan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/materi"
+            android:layout_alignStart="@+id/materi"
+            android:layout_marginTop="15dp"
+            android:id="@+id/latihan" />
+
+        <Button
+            android:text="About"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:id="@+id/about"
+            android:layout_below="@+id/latihan"
+            android:layout_alignEnd="@+id/latihan" />
+        
+        <Button
+            android:text="Exit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:id="@+id/exit"
+            android:layout_below="@+id/about"
+            android:layout_alignStart="@+id/about" />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu_utama"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ars.aplikasibangundatar.MenuUtamaActivity"
+    android:background="@drawable/jadi"
+    android:gravity="top"
+    android:orientation="vertical"
+   >
+
+    <Button
+        android:text="Tekan Untuk Memulai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mulai"
+        android:layout_marginBottom="126dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
